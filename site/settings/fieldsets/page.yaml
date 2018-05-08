@@ -1,0 +1,59 @@
+taxonomies:
+  tags: true
+title: Default page
+fields:
+  lead:
+    type: markdown
+    display: Introductie
+    localizable: true
+    cheatsheet: false
+    restrict_assets: false
+  content:
+    type: markdown
+    display: Content
+    localizable: true
+    cheatsheet: false
+    restrict_assets: false
+  meta_tags:
+    type: section
+    display: Meta tags
+  meta_keyword:
+    type: text
+    display: Meta keyword
+  meta_description:
+    type: textarea
+    display: Meta description
+  jumbotron:
+    type: section
+    display: Jumbotron
+  jumbotron_show:
+    type: toggle
+    display: Display Jumbotron
+  jumbotron_title:
+    type: text
+    display: Jumbotron title
+    show_when:
+      jumbotron_show: true
+  jumbotron_subtitle:
+    type: text
+    display: Jumbotron subtitle
+    show_when:
+      jumbotron_show: true
+  jumbotron_button_text:
+    type: text
+    display: Jumbotron button text
+    show_when:
+      jumbotron_show: true
+  jumbotron_button URL:
+    type: text
+    display: Jumbotron button URL
+    show_when:
+      jumbotron_show: true
+  jumbotron_background_image:
+    type: assets
+    display: Jumbotron background image
+    container: main
+    folder: /
+    restrict: false
+    show_when:
+      jumbotron_show: true
