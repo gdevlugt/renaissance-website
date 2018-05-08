@@ -4,7 +4,7 @@ title: Social media link
 create_title: ""
 hide: true
 fields:
-  url:
+  link:
     type: text
     display: Site url
   icon:

@@ -38,11 +38,8 @@
                                     <a href="/contact">Contact</a>
                                 </li>
 
-                                {{ collection from="social_media_links" }} 
-                                    <li class="list-inline-item social-icon">
-                                        <a href="{{ url }}" title="{{ title }}"><i class="fa fa-lg {{ icon }}"></i></a>
-                                    </li>
-                                {{ /collection }}
+                                {{ partial:social-links }}
+
                             </ul>
                         </div>
                         <!-- /.col-sm-4 -->
@@ -180,7 +177,9 @@
                             <br>
                         </div>
                         <!-- /.copyright -->
-                        <ul class="list-inline"></ul>
+                        <ul class="list-inline">
+                            {{ partial:social-links }}
+                        </ul>
                     </div>
                     <!-- /.col-md-2 col-12 copyright-container -->
                 </div>
