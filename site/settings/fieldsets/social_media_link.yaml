@@ -1,0 +1,12 @@
+taxonomies:
+  tags: true
+title: Social media link
+create_title: ""
+hide: true
+fields:
+  url:
+    type: text
+    display: Site url
+  icon:
+    type: text
+    display: Fontawesome icon ID

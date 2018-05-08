@@ -1,0 +1,49 @@
+//
+// Variables
+// --------------------------------------------------
+
+// Font related variables
+//
+$font-backup-stack:     sans-serif;
+$font-extra-light:      'proximaNovaExtraLight', $font-backup-stack;
+$font-light:            'proximaNovaLight', $font-backup-stack;
+$font-regular:          'proximaNovaRegular', $font-backup-stack;
+$font-regular-italic:   'proximaNovaRegularItalic', $font-backup-stack;
+$font-bold:             'proximaNovaBold', $font-backup-stack;
+$font-extra-bold:       'proximaNovaExtraBold', $font-backup-stack;
+$font-size-default: 16px;
+
+// Color related variables
+//
+$primary-color:                 #2C3E50;
+$white-color:                   #ffffff;
+$extralightgrey-color:          #f8f8f8;
+$lightgrey-color:               #cccccc;
+$mediumgrey-color:              #aaaaaa;
+$grey-color:                    #555555;
+$darkgrey-color:                #333333;
+$hover-color:                   #23527c;
+
+
+$alpha-foreground-color:        rgb(236, 240, 241);
+$alpha-background-color:        rgb(231, 76, 60);
+$alpha-hover-color:             rgb(255, 255, 255);
+$alpha-darken-background-color: rgba(231, 76, 60, 0.9);
+
+$bravo-foreground-color:        #ECF0F1;
+$bravo-background-color:        #3498DB;
+$bravo-hover-color:             #ffffff;
+
+$charlie-foreground-color:        rgb(236, 240, 241);
+$charlie-background-color:        rgb(41, 128, 185);
+$charlie-hover-color:             rgb(255, 255, 255);
+$charlie-darken-background-color: rgba(41, 128, 185, 0.9);
+
+$colorset-gray-foreground: #ECF0F1;
+$colorset-gray-background: rgb(40, 62, 80);
+$colorset-gray-hover: white;
+$colorset-gray-lighten: rgba($colorset-gray-background, 0.9);
+
+$echo-foreground-color:          #2C3E50;
+$echo-background-color:          #f8f8f8;
+$echo-hover-color:               #3498DB;

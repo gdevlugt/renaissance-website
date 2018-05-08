@@ -1,0 +1,128 @@
+.col-xs-12 {
+	width: 100%;
+}
+
+html,
+body {
+    font-size: $font-size-default;
+    font-family: $font-light;
+    color: $primary-color;
+}
+
+a {
+    color: $charlie-background-color;
+    &:hover,
+    &:focus {
+        color: $alpha-background-color;
+        text-decoration: none;
+    }
+}
+
+a.btn {
+    color: #fff;
+}
+
+strong {
+    font-family: $font-bold;
+}
+
+@media (min-width: 992px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+.white {
+    color: #333333;
+    background: #ffffff;
+}
+
+.red {
+    color: #ecf0f1;
+    background: #e74c3c;
+    &.lighten {
+        background: rgba(231, 76, 60, 0.9);
+    }
+}
+
+.blue {
+    color: #ecf0f1;
+    background: #2980b9;
+    &.lighten {
+        background: rgba(41, 128, 185, 0.9);
+    }
+}
+
+.gray {
+    color: $colorset-gray-foreground;
+    background: $colorset-gray-background;
+	
+	&.lighten {
+        background: $colorset-gray-lighten;
+	}
+	
+	a {
+		color: $colorset-gray-foreground;
+
+		&:hover {
+			color: $colorset-gray-hover;
+		}
+	}
+}
+
+.echo {
+    background: #f8f8f8;
+}
+
+footer {
+	padding: 30px;
+	
+	.footer-menu {
+		@extend .list-unstyled;
+		
+		font-weight: bolder;
+		font-size: 1rem;
+	
+		li {
+			@extend .py-1;
+
+			a {
+				font-family: $font-bold;
+				color: rgba($colorset-gray-foreground, 0.7);
+			}
+		}
+	}
+
+	.copyright {
+		font-size: 1rem;
+
+		.renaissance-icon {
+			width: 45px;
+			height: auto;
+			margin-left: 30px;
+		}
+	}
+}
+
+.btn-success {
+    color: #fff !important;
+    background-color: #5cb85c;
+	border-color: #4cae4c;
+	border-radius: 0;
+}
+
+.feature-lead {
+	@extend .py-5;
+
+	h2 {
+		font-family: "proximaNovaExtraLight", sans-serif;
+	}
+}
+
+.with-shadow {
+	box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.03);
+}
+
+.fa-check {
+    color: green;
+}

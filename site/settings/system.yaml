@@ -1,0 +1,43 @@
+locales:
+  en:
+    full: en_US
+    name: English
+    url: http://renaissance.test
+timezone: UTC
+date_format: F jS, Y
+default_extension: html
+filesystems:
+  content:
+    driver: local
+    root: site/content
+  storage:
+    driver: local
+    root: site/storage
+  users:
+    driver: local
+    root: site/users
+  themes:
+    driver: local
+    root: site/themes
+    url: /site/themes
+app_key: AoEU5xXq9W3l50jg1VaUdA5B833iF92Z
+redactor:
+  - 
+    name: Standard
+    settings:
+      buttons:
+        - formatting
+        - bold
+        - italic
+        - link
+        - unorderedlist
+        - orderedlist
+        - html
+  - 
+    name: Basic
+    settings:
+      buttons:
+        - bold
+        - italic
+send_powered_by_header: true
+ensure_unique_ids: false

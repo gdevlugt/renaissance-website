@@ -1,0 +1,25 @@
+taxonomies:
+  tags: true
+title: Webhosting package
+fields:
+  subtitle:
+    type: text
+    display: Subtitle
+  price:
+    type: text
+    display: Regular price
+    width: 25
+  sales_price:
+    type: text
+    display: Sales price
+    width: 25
+  features:
+    type: list
+    display: Features
+  colorset:
+    type: select
+    display: Colorset
+    options:
+      red: Red
+      blue: Blue
+      gray: Gray

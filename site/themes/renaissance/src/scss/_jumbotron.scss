@@ -1,0 +1,41 @@
+//
+// Jumbotron
+// --------------------------------------------------
+$jumbotron-heading-color: #fff;
+$jumbotron-color: #fff;
+
+$jumbotron-bg: transparent;
+$jumbotron-font-size: 1.5rem;
+$jumbotron-heading-font-size: 1.5rem;
+
+.jumbotron {
+    margin-bottom: 0;
+    color: $jumbotron-color;
+    background-color: $jumbotron-bg;
+
+    h1 {
+        color: $jumbotron-heading-color;
+        text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+        font-size: 4rem;
+    }
+    h2 {
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    }
+    p {
+        @extend .my-3;
+        font-size: $jumbotron-font-size;
+        font-weight: 200;
+    }
+    >hr {
+        border-top-color: darken($jumbotron-bg, 10%);
+    }
+    a.btn {
+        font-size: 120%;
+        font-family: 900;
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3)
+    }
+    .container &,
+    .container-fluid & {
+        border-radius: 20px; // Only round corners at higher resolutions if contained in a container
+    }
+}

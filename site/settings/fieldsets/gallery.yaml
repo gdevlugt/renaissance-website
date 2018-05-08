@@ -1,0 +1,19 @@
+title: Gallery
+taxonomies:
+  tags: true
+fields:
+  title:
+    type: title
+    display: Title
+    localizable: true
+  images:
+    type: assets
+    display: Images
+    container: main
+    folder: img
+    restrict: false
+  content:
+    type: markdown
+    display: Content
+    cheatsheet: false
+    restrict_assets: false

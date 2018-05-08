@@ -1,0 +1,14 @@
+title: Default Globals
+hide: true
+taxonomies:
+  tags: true
+fields:
+  site_name:
+    type: text
+    display: Website Name
+    instructions: The name of your website
+    localizable: true
+  site_slogan:
+    type: text
+    display: Site slogan
+    localizable: true

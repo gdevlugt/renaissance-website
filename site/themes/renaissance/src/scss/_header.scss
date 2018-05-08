@@ -1,0 +1,146 @@
+header {
+    // Topbar
+    // ----------------------------------------------------------------
+    // Bovenin de header. Bevat adres, social icons en secundair menu.
+    //
+    .topbar {
+        @extend .p-3;
+
+        font-size: 1rem;
+
+        a {
+            color: $primary-color;
+        }
+
+        address {
+            margin: 0;
+
+            i {
+                @extend .mx-1;
+            }
+
+            i.fa-phone {
+                margin-left: 0;
+            }
+        }
+        
+        address,
+        ul.list-inline {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.list-inline li {
+            @extend .pr-2;
+        }
+
+        ul.list-inline li.social-icon {
+            @extend .px-0;
+            @extend .mx-0;
+        }
+    } //
+    // Navbar
+    // --------------------------------------------------
+    //
+    .navbar {
+        @extend .mx-0;
+        @extend .mb-0;
+        @extend .mt-3;
+    }
+
+    .navbar-renaissance {
+        .navbar-brand {
+            padding: 0;
+        }
+
+        .navbar-text {
+            color: $navbar-light-color;
+        }
+
+        .navbar-nav {
+            >li>a {
+                @extend .pl-4;
+                color: #444 !important;
+                font-family: $font-bold;
+                font-size: 1rem;
+                text-transform: uppercase;
+
+                &:hover,
+                &:focus {
+                    color: $navbar-light-hover-color;
+                }
+            }
+
+            >.active>a {
+                &,
+                &:hover,
+                &:focus {
+                    color: $navbar-light-active-color;
+                }
+            }
+
+            >.disabled>a {
+                &,
+                &:hover,
+                &:focus {
+                    color: $navbar-light-disabled-color;
+                }
+            }
+        }
+
+        .navbar-toggle {
+            border-color: $navbar-light-toggler-border-color;
+        }
+
+        .navbar-collapse,
+        .navbar-form {}
+
+        // Links in navbars
+        //
+        // Add a class to ensure links outside the navbar nav are colored correctly.
+        .navbar-link {
+            @extend .pl-5;
+            color: $navbar-light-color;
+
+            &:hover {
+                color: $navbar-light-hover-color;
+            }
+        }
+
+        .btn-link {
+            color: $navbar-light-color;
+
+            &:hover,
+            &:focus {
+                color: $navbar-light-hover-color;
+            }
+
+            &[disabled],
+            fieldset[disabled] & {
+                &:hover,
+                &:focus {
+                    color: $navbar-light-disabled-color;
+                }
+            }
+        }
+    }
+}
+
+.breadcrumb {
+    margin: 10px 0px;
+    padding: 0px;
+    color: #ccc;
+    background-color: transparent;
+    border-radius: 0px;
+    font-size: 1.5rem;
+
+    >li+li:before {
+        content: "/";
+        padding: 0 5px;
+        color: #888;
+    }
+
+    a {
+        color: #ccc;
+    }
+}

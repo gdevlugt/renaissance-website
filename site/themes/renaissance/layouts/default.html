@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ title or site_title }}</title>
+    <meta name="author" content="Renaissance IT" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <div class="container">
+                <div class="topbar d-none d-sm-block">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <address>
+								<ul class="list-inline">
+									<li class="list-inline-item">
+										<i class="fa fa-phone"></i> 071 - 572 42 03</li>
+									<li class="list-inline-item">
+										<i class="fa fa-envelope"></i> info@renaissance.nl</li>
+								</ul>
+							</address>
+                        </div>
+                        <!-- /.col-sm-8 -->
+                        <div class="col-sm-4 text-right">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="/weblog">Weblog</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">Contact</a>
+                                </li>
+
+                                {{ collection from="social_media_links" }} 
+                                    <li class="list-inline-item social-icon">
+                                        <a href="{{ url }}" title="{{ title }}"><i class="fa fa-lg {{ icon }}"></i></a>
+                                    </li>
+                                {{ /collection }}
+                            </ul>
+                        </div>
+                        <!-- /.col-sm-4 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.topbar -->
+
+                {{ partial:nav }}
+            </div>
+            <!-- /.container -->
+        </header>
+
+
+        <div id="content-container">
+            {{ template_content }}
+        </div>
+
+        <footer class="gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-12">
+                        <h4>Hosting</h4>
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#">Domeinnaamregistratie</a>
+                            </li>
+                            <li>
+                                <a href="#">Website hosting</a>
+                            </li>
+                            <li>
+                                <a href="#">Virtual Private Servers</a>
+                            </li>
+                            <li>
+                                <a href="#">Dedicated hosting</a>
+                            </li>
+                            <li>
+                                <a href="#">Co-located hosting</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col-md-2 col-12 -->
+                    <div class="col-md-2 col-12">
+                        <h4>Email</h4>
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#">Google for Work</a>
+                            </li>
+                            <li>
+                                <a href="#">Microsoft Hosted Exchange</a>
+                            </li>
+                        </ul>
+                        <h4>Beveiliging</h4>
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#">SSL certificaten</a>
+                            </li>
+                            <li>
+                                <a href="#">Antispam en antivirus</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col-md-2 col-12 -->
+                    <div class="col-md-2 col-12">
+                        <h4>Ontwikkeling</h4>
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#">Websites</a>
+                            </li>
+                            <li>
+                                <a href="#">E-Commerce</a>
+                            </li>
+                            <li>
+                                <a href="#">Maatwerk applicaties</a>
+                            </li>
+                            <li>
+                                <a href="#">Mobiele apps</a>
+                            </li>
+                            <li>
+                                <a href="#">Advisering</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col-md-2 col-12 -->
+                    <div class="col-md-2 col-12">
+                        <h4>Ondersteuning</h4>
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#">Helpdesk artikelen</a>
+                            </li>
+                            <li>
+                                <a href="#">Actuele netwerk status</a>
+                            </li>
+                            <li>
+                                <a href="#">Storingen en onderhoud</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact opnemen</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col-md-2 col-12 -->
+                    <div class="col-md-2 col-12">
+                        <h4>Renaissance</h4>
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#">Over Renaissance</a>
+                            </li>
+                            <li>
+                                <a href="#">Nieuws</a>
+                            </li>
+                            <li>
+                                <a href="#">Weblog</a>
+                            </li>
+                            <li>
+                                <a href="#">Voorwaarden</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col-md-2 col-12 -->
+                    <div class="col-md-2 col-12 copyright">
+                        <img class="renaissance-icon" src="{{ theme:img src="logo-white.png" }}">
+                        <div id="copyright-text">
+                            <address>
+
+								<strong>Renaissance IT</strong>
+								<br> Steenplaetsstraat 6
+								<br> 2288 AA Rijswijk
+								<br>
+
+							</address> Copyright &#xA9; 1998-2018
+                            <br>
+                        </div>
+                        <!-- /.copyright -->
+                        <ul class="list-inline"></ul>
+                    </div>
+                    <!-- /.col-md-2 col-12 copyright-container -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </footer>
+
+    </div>
+    <!--/ #app-->
+
+    <script src="{{ theme:js }}"></script>
+</body>
+
+</html>

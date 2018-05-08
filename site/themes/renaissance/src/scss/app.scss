@@ -1,0 +1,23 @@
+// Import the Font Awesome Sass files.
+@import "~font-awesome/scss/font-awesome";
+
+// Import the fonts this theme will use.
+@import "fonts";
+
+// Import the Bootstrap 4 Sass files.
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+// Import the Bootstrap-Vue Sass files.
+@import 'node_modules/bootstrap-vue/dist/bootstrap-vue';
+
+// Import the Sass variables for this theme.
+@import "variables";
+@import "bootstrap-variables";
+
+@import "header";
+@import "footer";
+@import "main";
+@import "jumbotron";
+
+//@import "navbar";
+//@import "yamm";
