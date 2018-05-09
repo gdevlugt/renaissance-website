@@ -1,5 +1,7 @@
 title: Blog Post
 hide: true
+taxonomies:
+  tags: true
 fields:
   title:
     type: title
@@ -9,19 +11,28 @@ fields:
     type: textarea
     display: Subtitle
     localizable: true
+  author:
+    type: users
+    display: Author
+    max_items: 1
+    label: '{{ first_name }} {{ last_name }}'
   intro_image:
     type: assets
     display: Intro Image
     container: main
     folder: img
     max_files: 1
+    restrict: false
   hero_image:
     type: assets
     display: Hero Image
     container: main
     folder: img
     max_files: 1
+    restrict: false
   content:
     type: markdown
     display: Content
     localizable: true
+    cheatsheet: false
+    restrict_assets: false

@@ -5,7 +5,7 @@ locales:
     url: http://renaissance.test
 timezone: UTC
 date_format: F jS, Y
-default_extension: html
+default_extension: md
 filesystems:
   content:
     driver: local

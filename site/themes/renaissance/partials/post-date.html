@@ -1,0 +1,10 @@
+<span class="post-date">
+    <i class="fa fa-calendar-o"></i> 
+    {{ if (date | days_ago) < 21 }} 
+        {{ date | relative }} 
+    {{ elseif (date | format:Y)==n ow | format:Y }} 
+        {{ date format="M j" }} 
+    {{ else }} 
+        {{ date format="M j, Y" }} 
+    {{ /if }}
+</span>

@@ -12,3 +12,6 @@ fields:
     type: text
     display: Site slogan
     localizable: true
+  address:
+    type: textarea
+    display: Address

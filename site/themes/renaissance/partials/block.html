@@ -1,0 +1,29 @@
+<div class="weblog article">
+	
+ {{ if tag:long_form }} 
+ 	{{ tag:long_form where="type:image" limit="1" }}
+		<a href="{{ url }}"><img src="{{ glide:photo width='800' height='300' }}" width="800" height="300" class="img-fluid"></a>
+	{{ /tag:long_form }} 
+{{ elseif tag:intro_image }}
+	<a href="{{ url }}"><img src="{{ glide:intro_image width='800' height='300' }}" width="800" height="300" class="img-fluid"></a>
+{{ elseif tag:hero_image }}
+	<a href="{{ url }}"><img src="{{ glide:hero_image width='800' height='300' }}" width="800" height="300" class="img-fluid"></a>
+{{ /if }}
+
+
+	<h2><a href="{{ url }}">{{ title }}</a></h2>
+
+	{{ partial:post-meta }}
+
+	{{ if tag:long_form }}
+            {{ tag:long_form where="type:content" limit="1" }}
+                <p>{{ content | macro:summary }}</p>
+            {{ /tag:long_form }}
+        {{ else }}
+    		<p>{{ content | macro:summary }}</p>
+        {{ /if }}
+
+		<p class="text-right">
+			<a href="{{ url }}" class="btn btn-red btn-lg">Verder lezen</a>
+		</p>
+</div>

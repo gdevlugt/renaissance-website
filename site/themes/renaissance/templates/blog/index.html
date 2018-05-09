@@ -1,0 +1,19 @@
+{{ partial:page-header }}
+
+<div class="echo">
+{{ partial:lead :lead="content"}}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            <article class="list">
+                {{ collection:blog paginate="true" as="posts" limit="4" }} {{ posts scope="tag" }} {{ partial:block }} {{ /posts }} {{ partial:pagination }} {{ /collection:blog }}
+            </article>
+        </div>
+        <div class="col-sm-4">
+            {{ partial:blog/sidebar }}
+        </div>
+    </div>
+</div>
+</div>
+

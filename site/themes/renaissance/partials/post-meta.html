@@ -1,0 +1,19 @@
+<div class="meta">
+    {{ if author }} {{ user :id="author" }}
+        <img src="{{ email | gravatar:200 }}" width="40" class="author-avatar float-left rounded-circle">
+        <span class="author-name">
+            {{ first_name }} {{ last_name }}
+        </span>
+        {{ partial:post-date }}
+
+    {{/user}} 
+    {{ else }}
+        {{ partial:post-date}}
+    {{ /if }}
+
+    <span class="tags invisible">
+    {{ tags }}
+        <a href="{{ url }}" class="">{{ title }}</a>
+    {{ /tags }}
+    </span>
+</div>

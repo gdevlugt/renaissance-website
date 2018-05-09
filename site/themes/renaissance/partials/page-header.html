@@ -1,0 +1,17 @@
+
+{{ partial:jumbotron }}
+
+<div class="gray py-2">
+    <div class="container">
+        {{ if title && jumbotron_show == false }}
+        <h1>{{ title }}</h1>
+        {{ /if }}
+        <ol class="breadcrumb">
+            {{ nav:breadcrumbs }}
+                <li{{ if is_current }} class="current" {{ /if }}>
+                    <a href="{{ url }}">{{ title }}</a>
+                </li>
+            {{ /nav:breadcrumbs }}
+        </ol>
+    </div>
+</div>

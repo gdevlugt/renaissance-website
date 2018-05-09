@@ -1,0 +1,13 @@
+{{ if jumbotron_show }}
+<div class="jumbotron left" style="background: url('{{ jumbotron_background_image:0 }}'); background-size: cover;">
+    <div class="container">
+        <h1>{{ jumbotron_title }}</h1>
+        <h2>{{ jumbotron_subtitle }}</h2>
+        {{ if jumbotron_button_text && jumbotron_button_url }}
+        <p>
+            <a href="{{ jumbotron_button_url}}" class="btn btn-success btn-lg" title="{{ jumbotron_button_text }}" role="button">{{ jumbotron_button_text }}</a>
+        </p>
+        {{ /if }}
+    </div>
+</div>
+{{ /if }}

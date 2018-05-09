@@ -26,6 +26,12 @@ strong {
     font-family: $font-bold;
 }
 
+ul {
+	&.item-list {
+		@extend .pl-3;
+	}
+}
+
 @media (min-width: 992px) {
     .navbar-toggler {
         display: none;
@@ -38,11 +44,14 @@ strong {
 }
 
 .red {
-    color: #ecf0f1;
+    color: $white-color;
     background: #e74c3c;
     &.lighten {
         background: rgba(231, 76, 60, 0.9);
-    }
+	}
+	a{
+		color: $white-color;
+	}
 }
 
 .blue {
@@ -134,4 +143,60 @@ footer {
     background-color: transparent;
 	border-radius: 0px;
 	font-size: 1rem;
+}
+
+
+.weblog.article {
+	@extend .mb-5;
+	@extend .p-5;
+	@extend .white;
+	@extend .with-shadow;
+
+	.meta {
+		@extend .p-0;
+		@extend .my-4;
+
+		.author-avatar {
+			@extend .mr-3;
+		}
+
+		.author-name {
+			display: block;
+		}
+
+		.post-date {
+			color: lighten($primary-color, 40%);
+			font-size: 0.8rem;
+		}
+
+		.tags {
+			font-size: 0.9rem;
+
+			a {
+				@extend .ml-2;
+				color: $red-color;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	h2 {
+		@extend .p-0;
+		@extend .my-3;
+	
+		a {
+			color: $primary-color;
+		}
+	}
+}
+
+.btn-red {
+	@extend .red;
+}
+
+.sidebar {
+	.widget {
+		@extend .p-5;
+		@extend .with-shadow;
+	}
 }

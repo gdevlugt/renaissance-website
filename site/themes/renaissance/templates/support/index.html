@@ -1,0 +1,46 @@
+{{ partial:page-header }} 
+
+<div class="echo">
+
+{{ partial:lead }} 
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+
+{{ if get:q }} {{ search:results collection="support" }} {{ if no_results }}
+<h2>No results.</h2>
+{{ else }}
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">{{title }}</h5>
+        <p class="card-text">{{ content strip_tags="img|a|p" safe_truncate="180|..." }}</p>
+        <a href="{{ url }}" class="btn btn-primary">Lees meer</a>
+    </div>
+</div>
+
+{{ /if }} {{ /search:results }} {{ /if }}
+
+
+{{ taxonomy:support_topics }}
+<h2>{{ title }}</h2>
+<ul>
+    {{ collection }}
+    <li><a href="{{ url }}">{{ title }}</a></li>
+    {{ /collection }}
+</ul>
+{{ /taxonomy:support_topics }}
+    
+
+
+        </div>
+        <div class="col-sm-4">
+
+        </div>
+    </div>
+</div>
+{{ content }}
+
+    
+

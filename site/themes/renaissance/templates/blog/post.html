@@ -1,0 +1,30 @@
+{{ partial:page-header }}
+
+<div class="echo">
+      <div class="container pt-5">
+        <div class="row">
+            <div class="col-sm-8">
+				<article class="weblog article">
+					{{ if intro_image }}
+				<p> 
+					<img src="{{ glide:intro_image width='800' height='300' }}" width="800" height="300" class="img-fluid">
+				</p>
+					{{ /if }} 
+					
+					<h2>{{ title }}</h2>
+
+					{{ partial:post-meta }}
+
+					<div class="pb-5">
+						{{ content }}
+					</div>
+
+					{{ disqus:comments id="{ id }" }}
+				</article>
+			</div>
+			<div class="col-sm-4">
+				{{ partial:blog/sidebar }}
+			</div>
+        </div>
+    </div>
+</div>

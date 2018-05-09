@@ -35,7 +35,7 @@ fields:
     show_when:
       jumbotron_show: true
   jumbotron_subtitle:
-    type: text
+    type: markdown
     display: Jumbotron subtitle
     show_when:
       jumbotron_show: true
