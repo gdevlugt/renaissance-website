@@ -15,3 +15,7 @@ fields:
   address:
     type: textarea
     display: Address
+  default_meta_keywords:
+    type: text
+    display: Default meta keywords
+    localizable: true    

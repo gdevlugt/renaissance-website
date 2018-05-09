@@ -17,7 +17,7 @@ fields:
   meta_tags:
     type: section
     display: Meta tags
-  meta_keyword:
+  meta_keywords:
     type: text
     display: Meta keyword
   meta_description:
