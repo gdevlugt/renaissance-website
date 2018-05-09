@@ -2,6 +2,8 @@
 .env
 .idea/
 .vscode/
+.htaccess
+favicon.ico
 node_modules/
 bower_components/
 local/cache/*
