@@ -1,8 +1,9 @@
+license_key: '287e5205-4351-488e-8990-f20ae415625b	'
 locales:
   en:
     full: en_US
     name: English
-    url: http://renaissance.test
+    url: http://newsite.renaissance.nl
 timezone: UTC
 date_format: F jS, Y
 default_extension: md
