@@ -9,7 +9,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-            {{ nav from="/" include_home="true" scope="tag" }}
+            {{ nav from="/" include_home="true" scope="tag" is_hidden:isnt="true" }}
             {{ if is_current or is_parent }}
                 <li  class="nav-item active">
             {{ else }}    

@@ -2,6 +2,9 @@ taxonomies:
   tags: true
 title: Default page
 fields:
+  is_hidden:
+    type: toggle
+    display: Niet tonen in menu
   lead:
     type: markdown
     display: Introductie
