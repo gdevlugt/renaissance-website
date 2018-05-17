@@ -1,33 +1,60 @@
- {{ partial:page-header }} {{ partial:lead }} {{ content }}
- 
- {{ form:create in="contact" }} {{ if errors }}
-<div class="alert alert-danger">
-    {{ errors }} {{ value }}<br> {{ /errors }}
-</div>
-{{ /if }} {{ if success }}
-<div class="alert alert-success">
-    Form was submitted successfully.
-</div>
-{{ /if }}
+{{ partial:page-header }}
 
-<div class="form-group">
-    <label>Name</label>
-    <input type="text" name="name" value="{{ old:name }}" class="form-control" />
-</div>
+<div class="container my-5">
+    {{ if lead }}
+        <p class="lead">
+            {{ lead }}
+        </p>
+    {{ /if }}
 
-<div class="form-group">
-    <label>Email</label>
-    <input type="text" name="email" value="{{ old:email }}" class="form-control" />
-</div>
 
-<div class="form-group">
-    <label>Favorite Number</label>
-    <input type="number" name="number" value="{{ old:number }}" class="form-control" />
-</div>
+    <header>
+        <h1>Contact</h1>
+    </header>
 
-<div class="form-group">
-    <label>Comment</label>
-    <textarea name="comment" class="form-control">{{ old:comment }}</textarea>
-</div>
+    <article class="content">
 
-<button class="btn btn-primary">Submit</button> {{ /form:create }}
+        {{ content }}
+
+        {{ form:create in="contact" }}
+
+            {{ if errors }}
+                <div class="alert alert-danger">
+                    {{ errors }}
+                        {{ value }}<br>
+                    {{ /errors }}
+                </div>
+            {{ /if }}
+
+            {{ if success }}
+                <div class="alert alert-success">
+                    Form was submitted successfully.
+                </div>
+            {{ /if }}
+
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="name" value="{{ old:name }}" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" name="email" value="{{ old:email }}" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Favorite Number</label>
+                <input type="number" name="number" value="{{ old:number }}" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Comment</label>
+                <textarea name="comment" class="form-control">{{ old:comment }}</textarea>
+            </div>
+
+            <button class="btn btn-primary">Submit</button>
+
+        {{ /form:create }}
+
+    </article>
+</div>
