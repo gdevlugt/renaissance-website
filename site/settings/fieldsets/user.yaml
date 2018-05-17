@@ -1,5 +1,8 @@
 title: User
 hide: true
+taxonomies:
+  support_topics: true
+  tags: true
 fields:
   username:
     type: text
@@ -22,3 +25,6 @@ fields:
   content:
     type: textarea
     display: Biography
+  pgp_key:
+    type: textarea
+    display: PGP Key
