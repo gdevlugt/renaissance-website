@@ -1,5 +1,8 @@
 ---
-lead: 'Renaissance IT, gevestigd aan Steenplaetsstraat 6, 2288 AA te Rijswijk, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.'
+is_hidden: true
+lead: >
+  Renaissance IT, gevestigd aan Steenplaetsstraat 6, 2288 AA te Rijswijk, is verantwoordelijk voor de
+  verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.
 jumbotron_show: false
 bootstrap_container_wrapper: true
 title: Privacy verklaring
@@ -86,8 +89,7 @@ E-mail: <privacy@renaissance.nl>
 
 Renaissance IT wil u er tevens op wijzen dat u de mogelijkheid heeft om een klacht in te dienen bij de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link: 
 
-<https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/
-tip-ons>
+<https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons>
 
 
 ## Hoe wij persoonsgegevens beveiligen
