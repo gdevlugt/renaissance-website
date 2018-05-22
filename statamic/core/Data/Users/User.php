@@ -269,11 +269,11 @@ class User extends Data implements UserContract, Authenticatable, PermissibleCon
      */
     public function supplement()
     {
-        $this->supplements['last_modified'] = $this->lastModified()->timestamp;
-        $this->supplements['username'] = $this->username();
-        $this->supplements['email'] = $this->email();
-        $this->supplements['status'] = $this->status();
-        $this->supplements['edit_url'] = $this->editUrl();
+        $this->setSupplement('last_modified', $this->lastModified()->timestamp);
+        $this->setSupplement('username', $this->username());
+        $this->setSupplement('email', $this->email());
+        $this->setSupplement('status', $this->status());
+        $this->setSupplement('edit_url', $this->editUrl());
 
         if ($first_name = $this->get('first_name')) {
             $name = $first_name;
@@ -282,15 +282,15 @@ class User extends Data implements UserContract, Authenticatable, PermissibleCon
                 $name .= ' ' . $last_name;
             }
 
-            $this->supplements['name'] = $name;
+            $this->setSupplement('name', $name);
         }
 
         foreach ($this->roles() as $role) {
-            $this->supplements['is_'.Str::slug($role->title(), '_')] = true;
+            $this->setSupplement('is_'.Str::slug($role->title(), '_'), true);
         }
 
         foreach ($this->groups() as $group) {
-            $this->supplements['in_'.Str::slug($group->title(), '_')] = true;
+            $this->setSupplement('in_'.Str::slug($group->title(), '_'), true);
         }
 
         if ($this->supplement_taxonomies) {
@@ -516,7 +516,7 @@ class User extends Data implements UserContract, Authenticatable, PermissibleCon
     public function fieldset($fieldset = null)
     {
         if (is_null($fieldset)) {
-            return Fieldset::get('user');
+            return $this->get('fieldset', Fieldset::get('user'));
         }
 
         $this->set('fieldset', $fieldset);
