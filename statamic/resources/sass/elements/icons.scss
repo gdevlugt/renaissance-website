@@ -33,6 +33,11 @@
 
 
 .svg-icon {
+
+	&.using-svg {
+		@apply .flex .items-center;
+	}
+
 	svg {
 		width: 100%;
 		height: 100%;

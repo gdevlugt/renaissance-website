@@ -1,5 +1,3 @@
-taxonomies:
-  tags: true
 title: Social media link
 create_title: ""
 hide: true
@@ -10,3 +8,6 @@ fields:
   icon:
     type: text
     display: Fontawesome icon ID
+  tags:
+    type: taxonomy
+    taxonomy: tags

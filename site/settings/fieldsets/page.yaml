@@ -1,5 +1,3 @@
-taxonomies:
-  tags: true
 title: Default page
 fields:
   is_hidden:
@@ -60,3 +58,6 @@ fields:
     restrict: false
     show_when:
       jumbotron_show: true
+  tags:
+    type: taxonomy
+    taxonomy: tags

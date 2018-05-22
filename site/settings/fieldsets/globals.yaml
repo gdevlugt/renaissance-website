@@ -1,7 +1,5 @@
 title: Default Globals
 hide: true
-taxonomies:
-  tags: true
 fields:
   site_name:
     type: text
@@ -18,4 +16,7 @@ fields:
   default_meta_keywords:
     type: text
     display: Default meta keywords
-    localizable: true    
+    localizable: true
+  tags:
+    type: taxonomy
+    taxonomy: tags

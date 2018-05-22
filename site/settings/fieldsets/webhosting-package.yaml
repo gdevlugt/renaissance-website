@@ -1,5 +1,3 @@
-taxonomies:
-  tags: true
 title: Webhosting package
 fields:
   subtitle:
@@ -23,3 +21,6 @@ fields:
       red: Red
       blue: Blue
       gray: Gray
+  tags:
+    type: taxonomy
+    taxonomy: tags

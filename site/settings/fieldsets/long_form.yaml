@@ -2,7 +2,7 @@ title: Long Form Post
 hide: true
 fields:
   title:
-    type: title
+    type: text
     display: Title
   template:
     type: hidden
