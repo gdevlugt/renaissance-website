@@ -1,6 +1,6 @@
 ---
 lead: 'Bij Renaissance IT doen we ons werk op onze eigen manier. Dat wil zeggen: we bekijken de zaken gewoon nuchter. U heeft een wens of probleem en wij bedenken daar een oplossing voor die perfect op uw behoefte aansluit. Dat is de essentie.'
-jumbotron_show: true
+jumbotron_show: false
 jumbotron_title: Over ons
 jumbotron_subtitle: Hier komt de subtitel
 jumbotron_button_text: Maak kennis met ons
@@ -11,7 +11,7 @@ title: Over ons
 fieldset: page
 id: ff597d18-35da-4316-b662-4b09afb9f1cf
 ---
-<div class="container mb-5">
+<div class="mb-5">
     <div class="row">
         <div class="col-sm-8">
             <p>U kunt uw vraagstuk aan ons voorleggen bij ons op kantoor. Hier zult u ook direct merken dat we niet van de designmeubels, corporate outfits of wollige taal zijn. Onder het genot van een goede kop koffie, desgewenst vergezeld door een knapperig broodje, nemen we in heldere bewoordingen uw wensen door.</p>
