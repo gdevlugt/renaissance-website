@@ -1,3 +1,5 @@
+---
+is_hidden: true
 lead: "Mocht u algemene of technische vragen hebben over een van onze producten of diensten, raadpleeg dan onze helpdesk pagina's om een antwoord te vinden."
 jumbotron_show: true
 jumbotron_title: Helpdesk
@@ -14,3 +16,4 @@ title: Helpdesk
 fieldset: page
 template: support/index
 id: 1efc1d55-8873-4563-b7cc-538de3d25cea
+---
