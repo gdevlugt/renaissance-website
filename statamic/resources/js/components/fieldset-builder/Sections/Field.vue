@@ -226,9 +226,7 @@ export default {
         isShowingGridFields(val) {
             if (!val) return;
 
-            this.$nextTick(() => {
-                _.each(this.$refs.gridFields, component => { component.updateFieldWidths() });
-            });
+            this.$nextTick(() =>  this.$refs.fields.updateFieldWidths());
         },
 
         isShowingSets(val) {

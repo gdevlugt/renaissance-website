@@ -15,7 +15,11 @@
         </a>
 
         <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="{{ \Statamic\API\User::getCurrent()->getAvatar() }}" alt="" height="32" width="32" class="round ml-1 z-depth-1">
+            @if (\Statamic\API\Config::get('users.enable_gravatar'))
+                <img src="{{ \Statamic\API\User::getCurrent()->getAvatar() }}" alt="" height="32" width="32" class="round ml-8 z-depth-1">
+            @else
+                <div class="icon-user-initials round ml-8 z-depth-1">{{ \Statamic\API\User::getCurrent()->userInitials() }}</div>
+            @endif
         </a>
         <ul class="dropdown-menu">
             <li><a href="{{ route('account') }}">{{ t('profile') }}</a></li>

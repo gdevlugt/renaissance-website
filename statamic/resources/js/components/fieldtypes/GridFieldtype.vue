@@ -275,7 +275,7 @@ export default {
             this.$root.$on('livepreview.resizing', throttled);
             addEventListener('resize', throttled);
 
-            this.$once('hook:destroyed', () => {
+            this.$once('hook:beforeDestroy', () => {
                 window.removeEventListener('resize', throttled)
                 this.$root.$off('livepreview.opened', throttled);
                 this.$root.$off('livepreview.closed', throttled);
