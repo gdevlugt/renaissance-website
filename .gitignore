@@ -10,3 +10,4 @@ local/cache/*
 local/storage/*
 local/temp/*
 installer.php
+site/settings/system.yaml
