@@ -3,7 +3,7 @@ locales:
   en:
     full: en_US
     name: English
-    url: http://renaissance.test
+    url: https://newsite.renaissance.nl
 timezone: UTC
 date_format: F jS, Y
 default_extension: md
