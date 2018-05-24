@@ -27,8 +27,6 @@ Nederland<br>
 **Telefoon:**<br>
 +31 71 5724203
 
-De heer V.G. de Vlugt is de Functionaris Gegevensbescherming van Renaissance IT Hij is te bereiken via <vincent@renaissance.nl>
-
 
 ## Persoonsgegevens die wij verwerken
 
