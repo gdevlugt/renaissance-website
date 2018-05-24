@@ -19,9 +19,9 @@ Hieronder vindt u een download link naar de PDF versie van onze verwerkingsovere
 {{ /assets }}
 </div>   
 
-## Privacy verklaring
+## Privacyverklaring
 Wij willen u informeren over de wijze waarop en de doeleinden waarvoor wij uw gegevens gebruiken, de wijze waarop u zeggenschap kunt uitoefenen over dat gebruik en uw rechten als het gaat om uw gegevens. 
 
 Ons aangepaste Privacybeleid geeft een duidelijke beschrijving van onze gegevenspraktijken en de wijze waarop u uw gegevens kunt beheren. 
 
-<a href="/privacy" class="btn btn-primary">Privacy verklaring</a> 
+<a href="/privacy" class="btn btn-primary">Privacyverklaring</a> 
