@@ -80,10 +80,11 @@ U kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdraging van 
 
 Om er zeker van te zijn dat het verzoek tot inzage door u is gedaan, vragen wij u een kopie van uw identiteitsbewijs met het verzoek mee te sturen. Maak in deze kopie uw pasfoto, MRZ (machine readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en Burgerservicenummer (BSN) zwart. Dit ter bescherming van uw privacy. We reageren zo snel mogelijk, maar binnen vier weken, op uw verzoek.
 
-U kunt ons bereiken via: 
-Website: <https://www.renaissance.nl> 
-Telefoon: +31715724203 
-E-mail: <privacy@renaissance.nl> 
+U kunt ons bereiken via:
+<br>
+**Website:** <https://www.renaissance.nl><br>
+**Telefoon**: <a href="tel:+31715724203">+31715724203</a><br>
+**E-mail:** <privacy@renaissance.nl><br>
 
 Renaissance IT wil u er tevens op wijzen dat u de mogelijkheid heeft om een klacht in te dienen bij de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link: 
 
