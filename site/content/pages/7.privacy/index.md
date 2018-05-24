@@ -1,11 +1,11 @@
 ---
 is_hidden: true
 lead: >
-  Renaissance IT, gevestigd aan Steenplaetsstraat 6, 2288 AA te Rijswijk, is verantwoordelijk voor de
+  Renaissance IT, gevestigd aan de Steenplaetsstraat 6, 2288 AA te Rijswijk, is verantwoordelijk voor de
   verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.
 jumbotron_show: false
 bootstrap_container_wrapper: true
-title: Privacy verklaring
+title: Privacyverklaring
 fieldset: page
 id: eb4c7508-1aff-4128-8d96-46d30b7fff84
 ---
@@ -27,8 +27,8 @@ Nederland<br>
 **Telefoon:**<br>
 +31 71 5724203
 
-De heer V.G. de Vlugt is de Functionaris Gegevensbescherming van Renaissance IT Hij is te bereiken via <vincent@renaissance.nl>
-
+**E-mail adres:**<br>
+<info@renaissance.nl>
 
 ## Persoonsgegevens die wij verwerken
 
@@ -44,7 +44,7 @@ Hieronder vindt u een overzicht van de persoonsgegevens die wij verwerken:
 
 ## Bijzondere en/of gevoelige persoonsgegevens die wij verwerken
 
-Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn dan 16 jaar. Tenzij ze toestemming hebben van ouders of voogd. We kunnen echter niet controleren of een bezoeker ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun kinderen, om zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als u er van overtuigd bent dat wij zonder die toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem dan contact met ons op via privacy@renaissance.nl, dan verwijderen wij deze informatie.
+Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn dan 16 jaar. Tenzij ze toestemming hebben van ouders of voogd. We kunnen echter niet controleren of een bezoeker ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun kinderen, om zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als u er van overtuigd bent dat wij zonder die toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem dan contact met ons op via <info@renaissance.nl>, dan verwijderen wij deze informatie.
 
 ## Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken
 
@@ -78,14 +78,15 @@ Renaissance IT gebruikt alleen technische en functionele cookies. En analytische
 
 U heeft het recht om uw persoonsgegevens in te zien, te corrigeren of te verwijderen. Daarnaast heeft u het recht om uw eventuele toestemming voor de gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van uw persoonsgegevens door Renaissance IT en heeft u het recht op gegevensoverdraagbaarheid. Dat betekent dat u bij ons een verzoek kunt indienen om de persoonsgegevens die wij van u beschikken in een computerbestand naar u of een ander, door u genoemde organisatie, te sturen.
 
-U kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdraging van uw persoonsgegevens of verzoek tot intrekking van uw toestemming of bezwaar op de verwerking van uw persoonsgegevens sturen naar <privacy@renaissance.nl>.
+U kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdraging van uw persoonsgegevens of verzoek tot intrekking van uw toestemming of bezwaar op de verwerking van uw persoonsgegevens sturen naar <info@renaissance.nl>.
 
 Om er zeker van te zijn dat het verzoek tot inzage door u is gedaan, vragen wij u een kopie van uw identiteitsbewijs met het verzoek mee te sturen. Maak in deze kopie uw pasfoto, MRZ (machine readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en Burgerservicenummer (BSN) zwart. Dit ter bescherming van uw privacy. We reageren zo snel mogelijk, maar binnen vier weken, op uw verzoek.
 
-U kunt ons bereiken via: 
-Website: <https://www.renaissance.nl> 
-Telefoon: +31715724203 
-E-mail: <privacy@renaissance.nl> 
+U kunt ons bereiken via:
+
+Website: <https://www.renaissance.nl> <br>
+Telefoon: +31715724203 <br>
+E-mail: <info@renaissance.nl> 
 
 Renaissance IT wil u er tevens op wijzen dat u de mogelijkheid heeft om een klacht in te dienen bij de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link: 
 
@@ -94,4 +95,4 @@ Renaissance IT wil u er tevens op wijzen dat u de mogelijkheid heeft om een klac
 
 ## Hoe wij persoonsgegevens beveiligen
 
-Renaissance IT neemt de bescherming van uw gegevens serieus en neemt passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Als u de indruk heeft dat uw gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact op met ons via <privacy@renaissance.nl>
+Renaissance IT neemt de bescherming van uw gegevens serieus en neemt passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Als u de indruk heeft dat uw gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact op met ons via <info@renaissance.nl>

@@ -33,7 +33,10 @@
                         <div class="col-sm-4 text-right">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <a href="/privacy">Privacy verklaring</a>
+                                    <a href="/avg">AVG</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="/privacy">Privacyverklaring</a>
                                 </li>
 
                                 {{ partial:social-links }}
@@ -67,7 +70,10 @@
                                 <a href="/over-ons">Over Renaissance</a>
                             </li>
                             <li>
-                                <a href="/privacy">Privacy verklaring</a>
+                                <a href="/privacy">Privacyverklaring</a>
+                            </li>
+                            <li>
+                                <a href="/avg">Verwerkingsovereenkomst</a>
                             </li>
                             <li>
                                 <a href="/contact">Contact</a>
@@ -93,8 +99,9 @@
                         <div id="copyright-text">
                             <address>
 
-								<strong>{{ site_name }}</strong>
-								{{ address }}
+                                <strong>{{ site_name }}</strong>
+                                <br>
+								{{ address | nl2br }}
                             </address> 
                             
                             <p>Copyright &#xA9; 1998-2018</p>
@@ -115,6 +122,16 @@
     <!--/ #app-->
 
     <script src="{{ theme:js }}"></script>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">
+    require(["mojo/signup-forms/Loader"], function(L) {
+        L.start({
+            "baseUrl": "mc.us2.list-manage.com",
+            "uuid": "b77160a78ae6196febe86d451",
+            "lid": "657def5b30"
+        })
+    })
+</script>
 </body>
 
 </html>

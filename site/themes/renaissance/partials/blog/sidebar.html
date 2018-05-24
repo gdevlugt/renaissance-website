@@ -1,10 +1,14 @@
-<div class="sidebar">
-    <div class="red widget">
-        <h3>Recente berichten</h3>
-        <ul class="item-list">
-            {{ collection:blog as="posts" }} {{ posts scope="tag" }}
-            <li><a href="{{ url }}">{{ title }}</a></li>
-            {{ /posts }} {{ /collection:blog }}
-        </ul>
+{{ collection:blog as="posts" }}
+{{ if no_results == false }}
+    <div class="sidebar">
+        <div class="red widget">
+            <h3>Recente berichten</h3>
+            <ul class="item-list">
+                { posts scope="tag" }}
+                <li><a href="{{ url }}">{{ title }}</a></li>
+                {{ /posts }} 
+            </ul>
+        </div>
     </div>
-</div>
+{{ /if }}
+{{ /collection:blog }}  

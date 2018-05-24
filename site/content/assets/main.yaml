@@ -14,3 +14,7 @@ assets:
     title: redwood sign
   img/desert.jpg:
     focus: 77-70
+  avg/verklaringsovereenkomst-renaissance-it-v1.1-(en).pdf:
+    title: Data Processing Agreement v1.1 Renaissance IT
+  avg/verklaringsovereenkomst-renaissance-it-v1.1-(nl).pdf:
+    title: Verwerkingsovereenkomst v1.1 Renaissance IT

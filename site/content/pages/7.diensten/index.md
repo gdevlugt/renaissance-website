@@ -1,4 +1,5 @@
 ---
+is_hidden: true
 title: Diensten
 fieldset: default
 id: 8b9f1fdd-0000-4e65-8547-a79a3dadcb47

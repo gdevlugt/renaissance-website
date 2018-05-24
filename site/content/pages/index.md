@@ -9,15 +9,22 @@ id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 ---
 <div class="feature-lead white">
     <div class="container">
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-sm-6 text-contents">
-                <h2>Succesvol ondernemen op het internet begint met hosting van Renaissance.</h2>
-                <p>
-                    Verkoopt u uw producten via het internet? Of wilt u uw producten nóg beter online promoten? Dan is een .shop-domeinnaam een absolute must.
-                </p>
+                <h2>Renaissance IT is klaar voor de AVG</h2>
+                <p>Vanaf 25 mei 2018 treedt de nieuwe Europese wet voor databescherming, de General Data Protection Regulation (GDPR), in werking. Oftewel de Algemene Verordening Persoonsgegevens (AVG) in het Nederlands.</p>
+                <p>Wij vinden de privacy van onze klanten en relaties erg belangrijk. In het kader van de AVG hebben wij recentelijk onze Privacyverklaring uitgebreid en brengen wij u hiervan graag op de hoogte. Hierin is onder andere weergegeven welke persoonsgegevens wij verwerken en met welk doel. Ook wordt er aandacht besteed aan de rechten die u heeft over het beheer van uw gegevens.</p>
+                <p>Hiernaast kunt u zowel onze nieuwe Privacyverklaring, als onze nieuwe Verwerkersovereenkomst downloaden.</p>
+                <h4>Vragen over de AVG? Neem contact met ons op.</h4>
+                <p>Voor verdere vragen omtrent de AVG en wat uw onderneming verder moet ondernemen om eraan te voldoen, kunt u contact met ons opnemen via <info@renaissance.nl> of via 071-5724203.</p>
+                <p>Ook ná 25 mei 2018 is het nog niet te laat om aan de AVG te voldoen. Maar wacht niet te lang met het ondernemen van actie.</p>
             </div>
             <div class="col-sm-6">
-                <img class="img-fluid" src="http://www.openstack.org/themes/openstack/images/control-your-cloud.svg">
+                <img class="img-fluid" src="/assets/img/avg-laptop.jpg">
+                <div class="py-5 mx-5 text-center">
+                    <a href="/privacy" class="btn btn-success btn-lg btn-block">Bekijk onze Privacyverklaring</a>
+                    <a href="/avg" class="btn btn-success btn-lg btn-block mt-4 ">Bekijk onze Verwerkingsovereenkomst</a>
+                </div>
             </div>
         </div>
         <!-- .row -->
@@ -26,71 +33,3 @@ id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 </div>
 <!-- .feature-lead -->
 
-<div class="feature-lead echo">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 text-center">
-                <h2>Maak kennis met onze hosting pakketten</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, id incidunt? Explicabo illo laboriosam temporibus.</p>
-            </div>
-        </div>
-        <div class="row">
-        {{ collection:webhosting_packages }}
-            <div class="col-xs-12 col-sm-4">
-                <table class="table table-borderless price-table with-shadow">
-                    <tbody>
-                        <tr>
-                            <td class="{{ colorset }} lighten text-center title">
-                                <h2>{{ title }}</h2>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="{{ colorset }} text-center description">
-                                <em>{{ subtitle }}</em>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="white">
-                                <ul class="fa-ul mt15">
-                                {{ features }}
-                                  <li>
-                                    <i class="fa fa-li fa-check" aria-hidden="true"></i>
-                                    {{ value }}
-                                  </li>
-                                {{ /features }}
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="white text-center">
-                                {{ if sales_price }}
-                                  <span style="font-size: 15px; font-weight: bold; text-decoration: line-through">
-                                    &euro; {{ price }}
-                                  </span>
-                                  <span style="font-size: 25px; font-weight: bold">
-                                    &euro; {{ sales_price }}
-                                  </span>
-                                {{ else }}
-                                  <span style="font-size: 25px; font-weight: bold">
-                                    &euro; {{ price }}
-                                  </span>
-                                {{ /if }}
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="white">
-                                <a class="btn btn-success btn-lg btn-block">
-            <i class="fa fa-shopping-cart"></i> Bestel</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-          {{ /collection:webhosting_packages }}
-            <div class="col-xs-12 text-right">
-                <small>
-    <sup>*</sup> Op deze hoeveelheid is een fair-use policy van toepassing</small>
-            </div>
-        </div>
-    </div>
-</div>
