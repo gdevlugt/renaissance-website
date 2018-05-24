@@ -17,4 +17,71 @@ Bij het kiezen van een domeinnaam heeft u keuze uit een uiteenlopend aantal dome
 
 Via deze site kunt u op een makkelijke manier uw gewenste domeinnaam bestellen of verhuizen. Wij verzorgen het hele traject van de aanvraag en afhandeling die nu eenmaal komen kijken bij het registreren of verhuizen van een domeinnaam. Zodat u niet verder hoeft te zoeken. Want dienstverlening, dat is óns domein.
 
-Beschikbare domeinnaam extensies
+## Beschikbare domeinnaam extensies
+Wij kunnen vrijwel alle domeinnamen voor u registreren. Van bekende extensies als .nl, .be, .eu en .com tot aan Generic TLD (Top Level Domains) zoals .shop. Vrijwel alles is mogelijk en wij geven u bovendien ook graag aanvullend advies. Want ook domeinnamen registreren is maatwerk en dit specialisme beheersen wij al meer dan 20 jaar.
+<table border="1">
+  <thead>
+    <tr>
+      <td>
+        Domeinnaam extensie
+      </td>
+      <td>
+        Eenmalige setupkosten
+      </td>
+      <td>
+      </td>
+    </tr>
+  </thead>
+  <tr>
+    <td>
+	nl	
+    </td>
+    <td>
+    € 10,00
+    </td>
+   	<!--
+   	<td>
+      <button>Bestel nu!</button> 
+    </td>
+	-->
+  </tr>
+  <tr>
+    <td>
+	com	
+    </td>
+    <td>
+    € 10,00
+    </td>
+    <!--
+   	<td>
+      <button>Bestel nu!</button> 
+    </td>
+	-->
+  </tr>
+  <tr>
+    <td>
+	net
+    </td>
+    <td>
+   	€ 10,00
+    </td>
+   	<!--
+   	<td>
+      <button>Bestel nu!</button> 
+    </td>
+	-->
+  </tr>
+  <tr>
+  	<td>
+	eu 
+    </td>
+    <td>
+    € 10,00
+    </td>
+   	<!--
+   	<td>
+      <button>Bestel nu!</button> 
+    </td>
+	-->
+  </tr>
+</table>
