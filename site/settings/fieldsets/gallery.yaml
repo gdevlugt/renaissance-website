@@ -1,20 +1,25 @@
 title: Gallery
-fields:
-  title:
-    type: text
-    display: Title
-    localizable: true
-  images:
-    type: assets
-    display: Images
-    container: main
-    folder: img
-    restrict: false
-  content:
-    type: markdown
-    display: Content
-    cheatsheet: false
-    restrict_assets: false
-  tags:
-    type: taxonomy
-    taxonomy: tags
+sections:
+  main:
+    display: Main
+    fields:
+      title:
+        type: text
+        display: Title
+        localizable: true
+      images:
+        type: assets
+        display: Images
+        container: main
+        folder: img
+        restrict: false
+      content:
+        type: markdown
+        display: Content
+        cheatsheet: false
+        restrict_assets: false
+      tags:
+        type: taxonomy
+        taxonomy: tags
+taxonomies: true
+hide: true
