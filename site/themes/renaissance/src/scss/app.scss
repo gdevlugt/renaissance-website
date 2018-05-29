@@ -19,5 +19,37 @@
 @import "main";
 @import "jumbotron";
 
+.navbar-brand img {
+    width: 300px;
+    padding-bottom: 15px;
+}
+
+@include media-breakpoint-down(xs) {
+    .navbar-brand img {
+        width: 250px;
+        padding-bottom: 0px;
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .navbar-brand img {
+        width: 250px;
+        padding-bottom: 0px;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px #eee solid;
+        border-bottom: 1px #eee solid;
+
+        li {
+            margin-top: 5px;
+            margin-bottom: 5px;            
+        }
+    }
+}
+
 //@import "navbar";
 //@import "yamm";
