@@ -1,7 +1,7 @@
 import $ from "jquery";
-import _ from 'lodash';
-import Vue from 'vue'
-import BootstrapVue from 'bootstrap-vue'
+//import _ from 'lodash';
+//import Vue from 'vue'
+//import BootstrapVue from 'bootstrap-vue'
 import Bootstrap from 'bootstrap'
 
 /**
@@ -11,11 +11,11 @@ import Bootstrap from 'bootstrap'
 /**
  * Let Vue use Bootstrap Vue.
  */
-Vue.use(BootstrapVue);
+// Vue.use(BootstrapVue);
 
 /**
  * This is our main Vue app.
  */
-const app = new Vue({
-    el: '#app'
-});
+//const app = new Vue({
+//    el: '#app'
+//});
