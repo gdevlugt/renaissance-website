@@ -14,8 +14,8 @@ mix.js('src/js/app.js', 'js/renaissance.js')
     .sass('src/scss/app.scss', 'css/renaissance.css')
     .sourceMaps()
     .setPublicPath('.')
-    .setResourceRoot('/site/themes/renaissance')
-    .webpackConfig({ devtool: "inline-source-map" });
+    .setResourceRoot('/site/themes/renaissance');
+    //.webpackConfig({ devtool: "inline-source-map" });
     
 // Full API
 // mix.js(src, output);
