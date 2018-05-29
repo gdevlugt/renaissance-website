@@ -21,15 +21,13 @@ id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
             </div>
             <div class="col-sm-6">
                 <img class="img-fluid" src="/assets/img/avg-laptop.jpg">
-                <div class="py-5 mx-5 text-center">
-                    <div class="d-block d-sm-none">
-                        <a href="/privacy" class="btn btn-success btn-xs btn-block">Privacyverklaring</a>
-                        <a href="/avg" class="btn btn-success btn-xs btn-block mt-4 ">Verwerkingsovereenkomst</a>
-                    </div>
-                    <div class="d-none d-sm-block">
-                        <a href="/privacy" class="btn btn-success btn-lg btn-block">Bekijk onze Privacyverklaring</a>
-                        <a href="/avg" class="btn btn-success btn-lg btn-block mt-4 ">Bekijk onze Verwerkingsovereenkomst</a>
-                    </div>
+                <div class="d-block d-sm-none py-5 text-center">
+                    <a href="/privacy" class="btn btn-success btn-xs btn-block">Privacyverklaring</a>
+                    <a href="/avg" class="btn btn-success btn-xs btn-block mt-4 ">Verwerkingsovereenkomst</a>
+                </div>
+                <div class="d-none d-sm-block py-5 mx-5 text-center">
+                    <a href="/privacy" class="btn btn-success btn-lg btn-block">Bekijk onze Privacyverklaring</a>
+                    <a href="/avg" class="btn btn-success btn-lg btn-block mt-4 ">Bekijk onze Verwerkingsovereenkomst</a>
                 </div>
             </div>
         </div>
